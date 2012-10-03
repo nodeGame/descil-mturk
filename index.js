@@ -1,0 +1,1 @@
+module.exports = require('./lib/mturk.descil.js');
