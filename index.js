@@ -1,1 +1,1 @@
-module.exports = require('./lib/mturk.descil.js');
+module.exports = require('./lib/descil-mturk.js');
