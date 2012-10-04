@@ -1,16 +1,18 @@
-# Descil-mturk
+# DeSciL-mturk
 
 API to connect to the Mturk service provided by the ETH Decision Science Laboratory (DeSciL).
 
 ## Setup
 
-Create a 'conf' directory at the top of the root tree. Add a file called 'descil.conf.js' containing the following lines:
+Create a 'conf' directory at the top of the root tree and add a file called 'DeSciL.conf.js' containing the following lines:
 
   module.exports.key = "zyx";
   module.exports.project = "xyx";
   module.exports.uri = "http://xxx.xxx";
 
- Please contact the DeScil Lab if you are interested in using this 'descil-mturk' and want to receive valid credentials.
+## Usage
+
+The DeSciL Mturk service is still in beta. If you are interested in testing the 'descil-mturk' API, contact the lab manager to receive valid credentials.
  
 ## Resources
 
