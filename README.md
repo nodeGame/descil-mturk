@@ -6,9 +6,11 @@ API to connect to the Mturk service provided by the ETH Decision Science Laborat
 
 Create a 'conf' directory at the top of the root tree and add a file called 'DeSciL.conf.js' containing the following lines:
 
+```javascript
   module.exports.key = "zyx";
   module.exports.project = "xyx";
   module.exports.uri = "http://xxx.xxx";
+```
 
 ## Usage
 
@@ -16,8 +18,8 @@ The DeSciL Mturk service is still in beta. If you are interested in testing the 
  
 ## Resources
 
-  http://www.descil.ethz.ch/
-  http://github.com/nodeGame/
+ * http://www.descil.ethz.ch/
+ * http://github.com/nodeGame/
   
 
 ## License
