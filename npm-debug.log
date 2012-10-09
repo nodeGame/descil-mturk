@@ -1,0 +1,126 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+info using npm@1.1.12
+info using node@v0.6.14
+verbose config file /home/balistef/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose publish [ '.' ]
+verbose caching /var/www/descil-mturk/package.json
+verbose loadDefaults mturk-descil@0.1.1
+info prepublish mturk-descil@0.1.1
+verbose cache add [ '.', null ]
+silly cache add: name, spec, args [ undefined, '.', [ '.', null ] ]
+verbose parsed url { pathname: '.', path: '.', href: '.' }
+verbose caching package.json
+verbose loadDefaults mturk-descil@0.1.1
+verbose pack /var/www/descil-mturk
+verbose pack /var/www/descil-mturk /tmp/npm-1349788492122/1349788492122-0.07053681975230575/tmp.tgz
+silly makeList /var/www/descil-mturk
+verbose doing fancy crap /var/www/descil-mturk/node_modules
+silly dir, dirLen [ '/var/www/descil-mturk', 22 ]
+verbose tarball /tmp/npm-1349788492122/1349788492122-0.07053681975230575/tmp.tgz
+verbose parent /var/www/descil-mturk
+verbose mkdir (expected) error ENOENT, stat '/tmp/npm-1349788492122/1349788492122-0.07053681975230575/package'
+verbose mkdir done: /tmp/npm-1349788492122/1349788492122-0.07053681975230575/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1349788492122/1349788492122-0.07053681975230575/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /tmp/npm-1349788492122/1349788492122-0.07053681975230575/package
+verbose caching /tmp/npm-1349788492122/1349788492122-0.07053681975230575/package/package.json
+verbose loadDefaults mturk-descil@0.1.1
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /tmp/npm-1349788492122/1349788492122-0.07053681975230575/package/package.json
+verbose pack /tmp/npm-1349788492122/1349788492122-0.07053681975230575/package
+verbose pack /tmp/npm-1349788492122/1349788492122-0.07053681975230575/package /home/balistef/.npm/mturk-descil/0.1.1/package.tgz
+silly makeList /tmp/npm-1349788492122/1349788492122-0.07053681975230575/package
+silly dir, dirLen [ '/tmp/npm-1349788492122/1349788492122-0.07053681975230575/package',
+silly dir, dirLen   65 ]
+verbose tarball /home/balistef/.npm/mturk-descil/0.1.1/package.tgz
+verbose parent /tmp/npm-1349788492122/1349788492122-0.07053681975230575/package
+verbose mkdir (expected) error ENOENT, stat '/home/balistef/.npm/mturk-descil/0.1.1/package'
+verbose mkdir done: /home/balistef/.npm/mturk-descil/0.1.1/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/balistef/.npm/mturk-descil/0.1.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /home/balistef/.npm/mturk-descil/0.1.1/package
+verbose caching /home/balistef/.npm/mturk-descil/0.1.1/package/package.json
+verbose loadDefaults mturk-descil@0.1.1
+silly updated sha bytes 2633
+info shasum 6c631ae17f45d2a801b6df70c909c0f2d614f26f
+info shasum /home/balistef/.npm/mturk-descil/0.1.1/package.tgz
+verbose from cache /home/balistef/.npm/mturk-descil/0.1.1/package/package.json
+verbose chmod /home/balistef/.npm/mturk-descil/0.1.1/package.tgz 644
+verbose chown [ '/home/balistef/.npm/mturk-descil/0.1.1/package.tgz',
+verbose chown   1000,
+verbose chown   1000 ]
+silly publish { name: 'mturk-descil',
+silly publish   description: 'API to connect to the Mturk-service offered by the ETH Decision Science Laboratory (DeSciL)',
+silly publish   version: '0.1.1',
+silly publish   main: 'index.js',
+silly publish   homepage: 'http://www.nodegame.org',
+silly publish   keywords: 
+silly publish    [ 'game',
+silly publish      'nodegame',
+silly publish      'experiments',
+silly publish      'descil',
+silly publish      'eth',
+silly publish      'mturk',
+silly publish      'hit' ],
+silly publish   author: { name: 'Stefano Balietti', email: 'futur.dorko@gmail.com' },
+silly publish   contributors: [ { name: 'Stefano Balietti', email: 'futur.dorko@gmail.com' } ],
+silly publish   repository: 
+silly publish    { type: 'git',
+silly publish      url: 'git://github.com/nodeGame/descil-mturk.git' },
+silly publish   dependencies: 
+silly publish    { commander: '1.0.0',
+silly publish      docker: '0.1.3',
+silly publish      request: '2.11.1',
+silly publish      JSUS: '>= 0.5.1',
+silly publish      'ya-csv': '0.9.2',
+silly publish      NDDB: '>= 0.3.0',
+silly publish      smoosh: '0.3.2',
+silly publish      winston: '0.6.2' },
+silly publish   devDependencies: { mocha: '>= 0.3.0', should: '>= 0.5.1' },
+silly publish   licenses: [ { type: 'MIT' } ],
+silly publish   engines: { node: '>= 0.4.0' },
+silly publish   scripts: { test: 'make test' },
+silly publish   _npmUser: { name: 'shakty', email: 'futur.dorko@gmail.com' },
+silly publish   _id: 'mturk-descil@0.1.1',
+silly publish   optionalDependencies: {},
+silly publish   _engineSupported: true,
+silly publish   _npmVersion: '1.1.12',
+silly publish   _nodeVersion: 'v0.6.14',
+silly publish   _defaultsLoaded: true,
+silly publish   dist: 
+silly publish    { shasum: '6c631ae17f45d2a801b6df70c909c0f2d614f26f',
+silly publish      tarball: 'http://registry.npmjs.org/mturk-descil/-/mturk-descil-0.1.1.tgz' } }
+verbose raw, before any munging mturk-descil
+verbose url resolving [ 'https://registry.npmjs.org/', './mturk-descil' ]
+verbose url resolved https://registry.npmjs.org/mturk-descil
+http PUT https://registry.npmjs.org/mturk-descil
+http 401 https://registry.npmjs.org/mturk-descil
+ERR! Failed PUT response 401
+ERR! Error: unauthorized Name or password is incorrect.: mturk-descil
+ERR!     at Request._callback (/usr/local/lib/node_modules/npm/lib/utils/npm-registry-client/request.js:181:12)
+ERR!     at Request.callback (/usr/local/lib/node_modules/npm/node_modules/request/main.js:119:22)
+ERR!     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:605:16)
+ERR!     at Request.emit (events.js:67:17)
+ERR!     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:564:14)
+ERR!     at IncomingMessage.emit (events.js:88:20)
+ERR!     at HTTPParser.onMessageComplete (http.js:137:23)
+ERR!     at CleartextStream.ondata (http.js:1150:24)
+ERR!     at CleartextStream._push (tls.js:375:27)
+ERR!     at SecurePair.cycle (tls.js:734:20)
+ERR! You may report this log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Linux 2.6.31-22-generic
+ERR! command "node" "/usr/local/bin/npm" "publish"
+ERR! cwd /var/www/descil-mturk
+ERR! node -v v0.6.14
+ERR! npm -v 1.1.12
+ERR! message unauthorized Name or password is incorrect.: mturk-descil
+verbose exit [ 1, true ]

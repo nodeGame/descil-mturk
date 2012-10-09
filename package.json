@@ -1,5 +1,5 @@
 {
-    "name": "mturk-descil"
+    "name": "descil-mturk"
   , "description": "API to connect to the Mturk-service offered by the ETH Decision Science Laboratory (DeSciL)"
   , "version": "0.1.1"
   , "main" : "index.js"
