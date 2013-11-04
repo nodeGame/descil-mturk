@@ -1,7 +1,7 @@
 {
     "name": "descil-mturk"
   , "description": "API to connect to the Mturk-service offered by the ETH Decision Science Laboratory (DeSciL)"
-  , "version": "0.2.2"
+  , "version": "0.3.0"
   , "main" : "index.js"
   , "homepage": "http://www.nodegame.org"
   , "keywords": ["game", "nodegame", "experiments", "descil", "eth", "mturk", "hit"]
@@ -17,9 +17,9 @@
       "commander": "1.0.0",
       "docker": "0.1.3",
       "request": "2.11.1",
-      "JSUS": ">= 0.6.3",
+      "JSUS": "0.7.8",
       "ya-csv": "0.9.2",
-      "NDDB": ">= 0.5.0",
+      "NDDB": "0.9.2",
       "smoosh": "0.4.0",
       "winston": "0.6.2"
     }
@@ -30,7 +30,7 @@
   , "licenses": [
     { "type": "MIT" }
   ]
-  , "engines": { "node": ">= 0.4.0" }
+  , "engines": { "node": ">= 0.8.0" }
   , "scripts": {
       "test": "make test"
   }
