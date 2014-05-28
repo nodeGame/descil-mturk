@@ -6,3 +6,9 @@ descil.conf.js
 
 npm-debug.log
 node_modules
+
+\#*
+.\#*
+_*
+~*
+*.swp
