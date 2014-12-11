@@ -1,7 +1,7 @@
 {
     "name": "descil-mturk"
   , "description": "API to connect to the Mturk-service offered by the ETH Decision Science Laboratory (DeSciL)"
-  , "version": "0.3.2"
+  , "version": "0.3.3"
   , "main" : "index.js"
   , "homepage": "http://www.nodegame.org"
   , "keywords": ["game", "nodegame", "experiments", "descil", "eth", "mturk", "hit"]
