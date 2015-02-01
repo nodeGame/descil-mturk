@@ -1,3 +1,6 @@
+# 0.3.4
+- Fixed bug in getCodes.
+
 # 0.3.3
 - Code refactoring.
 - Added `#postPayoffs() method.
