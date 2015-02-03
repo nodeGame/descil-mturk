@@ -1,5 +1,6 @@
 # 0.3.4
 - Fixed bug in getCodes.
+- DRY_MODE can be set with conf file.
 
 # 0.3.3
 - Code refactoring.
