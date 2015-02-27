@@ -1,3 +1,6 @@
+# 0.3.5
+- Added local flags checkedOut and droppedOut.
+
 # 0.3.4
 - Fixed bug in getCodes.
 - DRY_MODE can be set via conf file.
